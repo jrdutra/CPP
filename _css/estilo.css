@@ -1,0 +1,422 @@
+@font-face {
+    font-family: "alef-bold";
+    src: url("../_fontes/Alef-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "alef-regular";
+    src: url("../_fontes/Alef-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("../_fontes/Montserrat-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../_fontes/Montserrat-Regular.ttf") format("truetype");
+}
+body{
+    background-image: url('../_imagens/bk.png');
+    background-repeat: repeat;
+    min-width: 700px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+div#barra-cabecalho{
+    min-height: 50px;
+    min-width: 700px;
+    background-color: #677079;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: 0px;
+    padding-top: 9px;
+    border-radius: 5px 5px 0px 0px;
+}
+div#barra-cabecalho-2{
+    min-height: 50px;
+    width: 930px;
+    background-color: #677079;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: 0px;
+    padding-top: 9px;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+label#texto-cabecalho{
+    font-size: 30px;
+    font-family: "Alef-Bold";
+    height: 120px;
+}
+label#sub-texto-cabecalho{
+    font-size: 10px;
+    font-family: Arial;
+}
+div#barra-menu{
+    background-color: #677079;
+    /* Para Mozilla/Gecko (Firefox etc) */
+    background: -moz-linear-gradient(top, #2fb400, #238700) repeat-X;
+    /* Para WebKit (Safari, Google Chrome etc) */
+    background: -webkit-gradient(linear, left top, left bottom, from(#2fb400), to(#238700)) repeat-X;
+    /* Para IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#2fb400, endColorstr=#238700)";
+    /* Para IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#2fb400, endColorstr=#238700);
+    display: block;
+    position: absolute;
+    width: 28px;
+    height: 24px;
+    text-align: left;
+    vertical-align: middle;
+    margin-top: -63px;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid rgba(0,0,0,.3);
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration-color: white;
+    font-family: "Montserrat-Bold";
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+div#barra-menu:hover{
+    background-color: #677079;
+    /* Para Mozilla/Gecko (Firefox etc) */
+    background: -moz-linear-gradient(top, #3ce600, #2caa00) repeat-X;
+    /* Para WebKit (Safari, Google Chrome etc) */
+    background: -webkit-gradient(linear, left top, left bottom, from(#3ce600), to(#2caa00)) repeat-X;
+    /* Para IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#3ce600, endColorstr=#2caa00)";
+    /* Para IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3ce600, endColorstr=#2caa00);
+    cursor:pointer;
+}
+div#barra-menu-2{
+    background-color: #677079;
+    /* Para Mozilla/Gecko (Firefox etc) */
+    background: -moz-linear-gradient(top, #0008b3, #00067d) repeat-X;
+    /* Para WebKit (Safari, Google Chrome etc) */
+    background: -webkit-gradient(linear, left top, left bottom, from(#0008b3), to(#00067d)) repeat-X;
+    /* Para IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#0008b3, endColorstr=#00067d)";
+    /* Para IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0008b3, endColorstr=#00067d);
+    display: block;
+    position: absolute;
+    width: 164px;
+    height: 24px;
+    text-align: left;
+    vertical-align: middle;
+    margin-top: -63px;
+    margin-left: 63px;
+    padding: 10px;
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid rgba(0,0,0,.3);
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration-color: white;
+    font-family: "Montserrat-Bold";
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+div#barra-menu-2:hover{
+    background-color: #677079;
+    /* Para Mozilla/Gecko (Firefox etc) */
+    background: -moz-linear-gradient(top, #3468ff, #011ecf) repeat-X;
+    /* Para WebKit (Safari, Google Chrome etc) */
+    background: -webkit-gradient(linear, left top, left bottom, from(#3468ff), to(#011ecf)) repeat-X;
+    /* Para IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#3468ff, endColorstr=#011ecf)";
+    /* Para IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3468ff, endColorstr=#011ecf);
+    cursor:pointer;
+}
+div#barra-menu-3{
+    background-color: #677079;
+    /* Para Mozilla/Gecko (Firefox etc) */
+    background: -moz-linear-gradient(top, #b70000, #6f0000) repeat-X;
+    /* Para WebKit (Safari, Google Chrome etc) */
+    background: -webkit-gradient(linear, left top, left bottom, from(#b70000), to(#6f0000)) repeat-X;
+    /* Para IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#b70000, endColorstr=#6f0000)";
+    /* Para IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#b70000, endColorstr=#6f0000);
+    display: block;
+    position: absolute;
+    width: 204px;
+    height: 24px;
+    text-align: left;
+    vertical-align: middle;
+    margin-top: -63px;
+    margin-left: 257px;
+    padding: 10px;
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid rgba(0,0,0,.3);
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration-color: white;
+    font-family: "Montserrat-Bold";
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+div#barra-menu-3:hover{
+    background-color: #677079;
+    /* Para Mozilla/Gecko (Firefox etc) */
+    background: -moz-linear-gradient(top, #ff4949, #ba0000) repeat-X;
+    /* Para WebKit (Safari, Google Chrome etc) */
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff4949), to(#ba0000)) repeat-X;
+    /* Para IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff4949, endColorstr=#ba0000)";
+    /* Para IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff4949, endColorstr=#ba0000);
+    cursor:pointer;
+}
+div#texto-menuPrincipal{
+    height: 0px;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration-color: white;
+    font-family: "Montserrat-Bold";
+}
+
+div#botao_menu{
+    background-color: #677079;
+    /* Para Mozilla/Gecko (Firefox etc) */
+    background: -moz-linear-gradient(top, #2fb400, #238700) repeat-X;
+    /* Para WebKit (Safari, Google Chrome etc) */
+    background: -webkit-gradient(linear, left top, left bottom, from(#2fb400), to(#238700)) repeat-X;
+    /* Para IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#2fb400, endColorstr=#238700)";
+    /* Para IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#2fb400, endColorstr=#238700);
+
+    display: block;
+    position: relative;
+
+    width: 400px;
+
+    padding: 7px;
+    margin: 10px;
+    margin-left: 0px;
+    text-decoration-color: white;
+    align-items: center;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,.5);
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration-color: white;
+    font-family: "Montserrat-Bold";
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+div#botao_menu:hover{
+    background-color: #677079;
+    /* Para Mozilla/Gecko (Firefox etc) */
+    background: -moz-linear-gradient(top, #3ce600, #2caa00) repeat-X;
+    /* Para WebKit (Safari, Google Chrome etc) */
+    background: -webkit-gradient(linear, left top, left bottom, from(#3ce600), to(#2caa00)) repeat-X;
+    /* Para IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#3ce600, endColorstr=#2caa00)";
+    /* Para IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3ce600, endColorstr=#2caa00);
+    cursor:pointer;
+}
+a#botao_menu{
+    color: white;
+}
+div#corpo{
+    min-width: 700px;
+    min-height: 300px;
+    background-color: rgba(0,0,0,.2);
+    border-radius: 0px 0px 5px 5px;
+    margin-top: -10px;
+}
+div#corpo-2{
+    width: 930px;
+    min-height: 100px;
+    background-color: rgba(255,255,255,.8);
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    margin-top: -10px;
+}
+div#corpo-interno{
+    min-width: 700px;
+    font-family: "alef-regular";
+    padding: 20px;
+}
+div#caixa-generica{
+    min-width: 700px;
+    background-color: rgba(0,0,0,.1);
+    border-radius: 15px 15px 15px 15px;
+    padding: 20px;
+    margin: 18px;
+}
+div#caixa-botaoMenu{
+    background-color: rgba(0,0,0,.4);
+    border-radius: 5px 5px 5px 5px;
+    height: 42px;
+    color: white;
+}
+label#descricao_botao_menu{
+    display: block;
+    position: relative;
+    margin-left: 425px;
+    margin-top: -42px;
+
+}
+div#caixa-paciente{
+    font-size: 17px;
+    min-width: 700px;
+    background-color: rgba(0,0,0,.1);
+    border-radius: 15px 15px 15px 15px;
+    padding: 20px;
+    margin: 20px;
+}
+div#caixa-paciente:hover{
+    background-color: rgba(0,0,20,.1);
+    box-shadow: 2px 2px 2px rgba(0,0,0,.6);
+    border: 1px solid rgba(0,0,0,.3);
+    cursor:pointer;
+}
+div#rodape{
+    text-align: center;
+    font-family: "alef-regular";
+}
+div#caixa-simples{
+    border: 1px solid rgba(0,0,0,.8);
+    padding: 20px;
+    width: 840px;
+    border-radius: 3px 3px 3px 3px;
+    background-color: rgba(220,220,220,.1);
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,.2);
+}
+label#cCampo{
+    font-family: "Montserrat-Regular";
+    font-size: 15px;
+}
+label#cVariavel{
+    color: #700000;
+    font-family: "Montserrat-Bold";
+    font-size: 17px;
+}
+img#logo-prefeitura{
+    height: 10%;
+    width: 10%;
+}
+
+input{
+    border-radius: 3px 3px 3px 3px;
+    height: 25px;
+    padding-left: 3px;
+    font-size: 16px;
+    color: rgba(43,43,43,1);
+}
+
+select{
+    border-radius: 3px 3px 3px 3px;
+    height: 25px;
+    padding-left: 3px;
+    font-size: 16px;
+    color: rgba(43,43,43,1);
+}
+
+input.cCampo{
+    font-family: "Montserrat-Regular";
+    text-align: left;
+    font-size: 18pt;
+    border-radius: 2px;
+    width: 600px;
+    height: 40px;
+    margin: 0px;
+    padding-left: 9px;
+    border: 2px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.4);
+}
+input.cCampoPequeno{
+    font-family: "Montserrat-Regular";
+    text-align: left;
+    font-size: 18pt;
+    border-radius: 2px;
+    width: 100px;
+    height: 40px;
+    margin: 0px;
+    padding-left: 9px;
+    border: 2px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.4);
+}
+input.cCampo:hover, input.cCampoPequeno:hover{
+    box-shadow: 2px 2px 2px rgba(0,0,0,.6);
+}
+input.cCampo:focus, input.cCampoPequeno:focus{
+    box-shadow: 2px 2px 2px rgba(0,0,0,.6);
+    border: 2px solid rgba(0,0,0,.5);
+}
+input.Botao{
+    cursor:pointer;
+    color: white;
+    background-color: #5c5c5c;
+    font-size: 18pt;
+    font-family: Arial;
+    font-weight: bold;
+    border-radius: 2px;
+    min-width: 90px;
+    min-height: 21px;
+    height: 38px;
+    margin: 5px 4px 4px 0px;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0px 0px 1px rgba(0,0,0,.5);
+}
+select#cGenero{
+    font-family: "Montserrat-Regular";
+    font-size: 20px;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 1px 1px 1px rgba(0,0,0,.4);
+}
+select.grande{
+    font-family: "Montserrat-Regular";
+    font-size: 20px;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 1px 1px 1px rgba(0,0,0,.4);
+}
+select.muito-grande{
+    font-family: "Montserrat-Regular";
+    font-size: 20px;
+    height: 30px;
+    width: 629px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 1px 1px 1px rgba(0,0,0,.4);
+}
+textarea#cInformacoesAdicionais{
+    font-family: "Montserrat-Regular";
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 1px 1px 1px rgba(0,0,0,.4);
+    width: 610px;
+    padding: 10px;
+}
+table#formulario {
+    border-collapse: collapse;
+}
+
+table#formulario th td {
+
+    border: 1px solid #cdcdcd;
+}
+table#formulario td{
+    padding: 10px;
+}
+
